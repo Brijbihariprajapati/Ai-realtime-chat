@@ -1,0 +1,14 @@
+.home-page {
+  min-height: 100dvh;
+  background: var(--bg);
+}
+
+.home-page__loading {
+  display: flex;
+  min-height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  font-size: 0.875rem;
+  color: var(--muted);
+}

@@ -1,0 +1,34 @@
+:root {
+  --bg: #e9efe9;
+  --panel: #f7f4ee;
+  --ink: #0f3d3e;
+  --muted: #5f726f;
+  --line: #c9d4cf;
+  --accent: #d4a04a;
+  --accent-soft: #f3e4c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
