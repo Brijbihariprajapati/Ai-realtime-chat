@@ -22,13 +22,13 @@ function LoginContent() {
   return (
     <main className="login-page">
       <div className="login-page__inner">
-        <p className="login-page__brand">Deft</p>
+        <p className="login-page__brand">AI Chat</p>
         <h1 className="login-page__headline">
-          Real-time chat with Gemini AI and instant Premium unlocks.
+          Realtime chat with AI suggest reply and summarize.
         </h1>
         <p className="login-page__desc">
-          Sign in with Google to join the room, message live, and unlock AI
-          suggest & summarize after payment.
+          Sign in with Google to join the room, chat live, and unlock Premium
+          AI features after payment.
         </p>
 
         {error && (

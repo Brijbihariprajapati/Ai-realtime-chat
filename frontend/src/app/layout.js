@@ -15,9 +15,9 @@ const sans = Outfit({
 });
 
 export const metadata = {
-  title: "Deft — AI Real-Time Chat",
+  title: "AI Chat — Realtime Chat",
   description:
-    "Google OAuth, Socket.IO chat, Gemini AI tools, and Premium unlocks.",
+    "Realtime chat with Google login, AI suggest & summarize, and Premium unlock.",
 };
 
 export default function RootLayout({ children }) {

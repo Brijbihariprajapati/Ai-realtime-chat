@@ -18,7 +18,7 @@ function HomeContent() {
   }, [loading, user, router]);
 
   if (loading || !user) {
-    return <main className="home-page__loading">Loading Deft…</main>;
+    return <main className="home-page__loading">Loading…</main>;
   }
 
   return (

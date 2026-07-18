@@ -60,7 +60,7 @@ export default function PremiumPanel({ onSuggestion, onSummary }) {
         key: order.keyId,
         amount: order.amount,
         currency: order.currency,
-        name: "Deft Premium",
+        name: "AI Chat Premium",
         description: `Premium unlock — ₹${order.amountInr || AMOUNT}`,
         order_id: order.orderId,
         prefill: {
